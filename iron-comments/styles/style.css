@@ -1,11 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
 body {
     padding: 0;
     margin: 0;
     padding-top: 100px;
-    width: 100vw;    
-
+    font-family: 'Roboto';
+    width: 100vw;  
+    background-color: rgb(25, 33, 41);  
+    color: rgb(255,255,255);    
 }
 
 #form-container {
     margin: auto;
+    padding: 20px;
+    width: 250px;
+    border: 1px solid rgb(67, 163, 230);
+    border-radius: 1%;
+}
+
+.formInput {
+    width: 225px;
+}
+
+#formTextArea {
+    height: 200px;
+    width: 225px;
+}
+
+input {
+    margin: 5px 0 5px 0;
+}
+
+button {
+    background-color: rgb(67, 163, 230);
+    border-radius: 10%;
+    border: 0px;
+    color: rgb(255,255,255);
 }
